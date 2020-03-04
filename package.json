@@ -1,0 +1,23 @@
+{
+  "name": "modsec-log-parse",
+  "version": "2.0.0",
+  "description": "",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "typescript": "^3.6.2",
+    "typedoc-plugin-markdown": "^2.2.1"
+  },
+  "scripts": {
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out ./docs ./src",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrustedKnight/modsec-log-parse.git"
+  },
+  "author": "Dylan Hackworth",
+  "license": "MIT"
+}
